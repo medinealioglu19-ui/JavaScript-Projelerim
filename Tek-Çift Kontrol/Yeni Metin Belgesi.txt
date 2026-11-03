@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tek Çift Kontrolü</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tek mi Çift mi?</h1>
+
+    <input type="number" id="sayi" placeholder="Bir sayı giriniz">
+
+    <button onclick="kontrolEt()">Kontrol Et</button>
+
+    <h3 id="sonuc"></h3>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
